@@ -68,3 +68,16 @@ $ cast --help
 ```
 
 ## To install dependency we use forge install to install single or multiple dependencies
+
+- forge install <github link / repo name>
+  [x] forge install openzeppelin/openzeppelin-contracts@v4.9.0
+
+### command to test a specific test method
+
+- forge test --match-test testFundUpdatesFundedDataStructure -vvv
+
+### to check snapshot of functionn or image
+
+- forge snapshot --match-test testFundUpdatesFundedDataStructure -vvv
+
+- constants and function variables are not stored in storage
